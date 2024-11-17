@@ -5,7 +5,7 @@ import pandas as pd
 from collections import Counter
 
 # Load encoders
-Gender_le = pkl.load(open('Deployment_Churn/Encoding/gender_le.pkl', 'rb'))
+#Gender_le = pkl.load(open('Deployment_Churn/Encoding/gender_le.pkl', 'rb'))
 Internetservice_le = pkl.load(open('Deployment_Churn/Encoding/InternetService_le.pkl', 'rb'))
 Paymentmethod_le = pkl.load(open('Deployment_Churn/Encoding/PaymentMethod_le.pkl', 'rb'))
 Tenure_le = pkl.load(open('Deployment_Churn/Encoding/tenure_group_le.pkl', 'rb'))
