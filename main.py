@@ -5,7 +5,6 @@ import pandas as pd
 from collections import Counter
 
 # Load encoders
-#Gender_le = pkl.load(open('Deployment_Churn/Encoding/gender_le.pkl', 'rb'))
 Internetservice_le = pkl.load(open('Deployment_Churn/Encoding/InternetService_le.pkl', 'rb'))
 Paymentmethod_le = pkl.load(open('Deployment_Churn/Encoding/PaymentMethod_le.pkl', 'rb'))
 Tenure_le = pkl.load(open('Deployment_Churn/Encoding/tenure_group_le.pkl', 'rb'))
@@ -18,7 +17,6 @@ models = {
     'Logistic Regression': pkl.load(open('Deployment_Churn/Models/LogisticRegression.pkl', 'rb')),
     'SVC': pkl.load(open('Deployment_Churn/Models/SVC.pkl', 'rb')),
     'KNN': pkl.load(open('Deployment_Churn/Models/KNN.pkl', 'rb')),
-    'GaussianNB': pkl.load(open('Deployment_Churn/Models/GaussianNB.pkl', 'rb')),
     'Random Forest': pkl.load(open('Deployment_Churn/Models/RandomForest.pkl', 'rb')),
     'Gradient Boosting': pkl.load(open('Deployment_Churn/Models/GradientBoosting.pkl', 'rb')),
     'XGBoost': pkl.load(open('Deployment_Churn/Models/XGBoost.pkl', 'rb')),
