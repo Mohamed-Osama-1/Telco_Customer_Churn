@@ -18,7 +18,7 @@ models = {
     'SVC': pkl.load(open('Deployment_Churn/Models/SVC.pkl', 'rb')),
     'KNN': pkl.load(open('Deployment_Churn/Models/KNN.pkl', 'rb')),
     'Random Forest': pkl.load(open('Deployment_Churn/Models/RandomForest.pkl', 'rb')),
-    'Gradient Boosting': pkl.load(open('Deployment_Churn/Models/GradientBoosting.pkl', 'rb')),
+   # 'Gradient Boosting': pkl.load(open('Deployment_Churn/Models/GradientBoosting.pkl', 'rb')),
     'XGBoost': pkl.load(open('Deployment_Churn/Models/XGBoost.pkl', 'rb')),
     'AdaBoost': pkl.load(open('Deployment_Churn/Models/AdaBoost.pkl', 'rb')),
     'Stacking': pkl.load(open('Deployment_Churn/Models/Stacking.pkl', 'rb')),
